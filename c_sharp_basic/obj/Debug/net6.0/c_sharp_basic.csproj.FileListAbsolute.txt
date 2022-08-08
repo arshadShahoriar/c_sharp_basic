@@ -1,0 +1,15 @@
+C:\Users\BS944\source\repos\c_sharp_basic\c_sharp_basic\bin\Debug\net6.0\c_sharp_basic.exe
+C:\Users\BS944\source\repos\c_sharp_basic\c_sharp_basic\bin\Debug\net6.0\c_sharp_basic.deps.json
+C:\Users\BS944\source\repos\c_sharp_basic\c_sharp_basic\bin\Debug\net6.0\c_sharp_basic.runtimeconfig.json
+C:\Users\BS944\source\repos\c_sharp_basic\c_sharp_basic\bin\Debug\net6.0\c_sharp_basic.dll
+C:\Users\BS944\source\repos\c_sharp_basic\c_sharp_basic\bin\Debug\net6.0\c_sharp_basic.pdb
+C:\Users\BS944\source\repos\c_sharp_basic\c_sharp_basic\obj\Debug\net6.0\c_sharp_basic.csproj.AssemblyReference.cache
+C:\Users\BS944\source\repos\c_sharp_basic\c_sharp_basic\obj\Debug\net6.0\c_sharp_basic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BS944\source\repos\c_sharp_basic\c_sharp_basic\obj\Debug\net6.0\c_sharp_basic.AssemblyInfoInputs.cache
+C:\Users\BS944\source\repos\c_sharp_basic\c_sharp_basic\obj\Debug\net6.0\c_sharp_basic.AssemblyInfo.cs
+C:\Users\BS944\source\repos\c_sharp_basic\c_sharp_basic\obj\Debug\net6.0\c_sharp_basic.csproj.CoreCompileInputs.cache
+C:\Users\BS944\source\repos\c_sharp_basic\c_sharp_basic\obj\Debug\net6.0\c_sharp_basic.dll
+C:\Users\BS944\source\repos\c_sharp_basic\c_sharp_basic\obj\Debug\net6.0\refint\c_sharp_basic.dll
+C:\Users\BS944\source\repos\c_sharp_basic\c_sharp_basic\obj\Debug\net6.0\c_sharp_basic.pdb
+C:\Users\BS944\source\repos\c_sharp_basic\c_sharp_basic\obj\Debug\net6.0\c_sharp_basic.genruntimeconfig.cache
+C:\Users\BS944\source\repos\c_sharp_basic\c_sharp_basic\obj\Debug\net6.0\ref\c_sharp_basic.dll
