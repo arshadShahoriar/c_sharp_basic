@@ -6,7 +6,11 @@ namespace c_sharp_basic
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var obj = new assignment();
+
+            //hello world
+            obj.helloWorld();
+
         }
     }
 }
