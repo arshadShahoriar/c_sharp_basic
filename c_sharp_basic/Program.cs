@@ -11,6 +11,10 @@ namespace c_sharp_basic
             //hello world
             obj.helloWorld();
 
+            //primitive data type printing
+
+            obj.printPrimitiveType();
+
         }
     }
 }
