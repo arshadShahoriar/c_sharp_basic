@@ -43,6 +43,8 @@ namespace c_sharp_basic
             //For, While, Do while, Foreach, continue & break (print 1-100, skip at 95, break at 99)
             obj.skip95AndBreaksAt99();
 
+            //switch case
+            obj.switchCases();
 
         }
     }
