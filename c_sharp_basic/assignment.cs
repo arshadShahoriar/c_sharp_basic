@@ -360,6 +360,31 @@ namespace c_sharp_basic
         public void differentTypesOfComment()
         {
 
+            // student grade calculator
+            // takes A,B,C,F a char as input
+            Console.WriteLine("Input a grade to know performance : ");
+            char grade = Console.ReadLine()[0];
+
+            switch (grade)
+            {
+                case 'A':
+                    Console.WriteLine("Excellent!");
+                    break;
+                case 'B':
+                    Console.WriteLine("Good");
+                    break;
+                case 'C':
+                    Console.WriteLine("progress needed");
+                    break;
+                case 'F':
+                    Console.WriteLine("Better try again");
+                    break;
+                default:
+                    Console.WriteLine("Invalid grade");
+                    break;
+            }
+
+
         }
 
         public void skip95AndBreaksAt99()

@@ -7,7 +7,7 @@ namespace c_sharp_basic
         static void Main(string[] args)
         {
             var obj = new assignment();
-
+               
           
 
             //hello world
@@ -34,6 +34,9 @@ namespace c_sharp_basic
 
             // ternary logical operators
             obj.ternaryLogicOperation();
+
+            //different types of comment
+            obj.differentTypesOfComment();
 
 
         }
