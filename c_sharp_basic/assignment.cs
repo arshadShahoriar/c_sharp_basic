@@ -346,7 +346,7 @@ namespace c_sharp_basic
         public void ternaryLogicOperation() {
 
             int a, b;
-            Console.WriteLine("input any number . If it is over 100 ,output 100 and if it is less 100 ,output will be 0";
+            Console.WriteLine("input any number . If it is over 100 ,output 100 and if it is less 100 ,output will be 0");
             a= int.Parse(Console.ReadLine()) ;
 
             //a<100 will results 0
