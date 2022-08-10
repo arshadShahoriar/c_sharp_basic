@@ -28,43 +28,52 @@ namespace c_sharp_basic
             string input;
             input= Console.ReadLine();
 
-            if (input.ToLower() == "true")
-                boolenType = true;
-            else if (input.ToLower() == "false")
-                boolenType = false;
+            if ((input.ToLower() == "true") || (input.ToLower() == "false"))
+            {
+                if (input.ToLower() == "true")
+                    boolenType = true;
+                else if (input.ToLower() == "false")
+                    boolenType = false;
+
+                Console.WriteLine($"your input is {boolenType} ");
+            }
             else
+            {
                 Console.WriteLine("Invalid input");
 
+            }
 
-            Console.WriteLine($"your input is {boolenType} ");
+
 
 
             //int
-
-
-            var intInput=Console.ReadLine();
+            Console.WriteLine("Input an Integer value");
+            int intInput= int.Parse(Console.ReadLine());
             Console.WriteLine($"your input is {intInput} ");
 
 
             //float
-
-            var floatInput=Console.ReadLine();
+            Console.WriteLine("Input an Float value");
+            var floatInput= float.Parse(Console.ReadLine());
             Console.WriteLine($"your input is {floatInput} ");
 
 
             //char
 
-            var charInput = Console.ReadLine();
+            Console.WriteLine("Input an Charecter value");
+            char charInput = char.Parse(Console.ReadLine());
             Console.WriteLine($"your input is {charInput} ");
 
 
             //long 
-            charInput = Console.ReadLine();
-            Console.WriteLine($"your input is {charInput} ");
+            Console.WriteLine("Input an Long value");
+            long longInput = long.Parse(Console.ReadLine());
+            Console.WriteLine($"your input is {longInput} ");
 
             //double
-            charInput = Console.ReadLine();
-            Console.WriteLine($"your input is {charInput} ");
+            Console.WriteLine("Input an double value");
+            double doubleInput = double.Parse(Console.ReadLine());
+            Console.WriteLine($"your input is {doubleInput} ");
 
 
         }
