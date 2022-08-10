@@ -300,7 +300,22 @@ namespace c_sharp_basic
         
         }
 
-        public void conditionExpression() { 
+        public void conditionExpression() {
+
+            Console.WriteLine("input a number range between 1-100");
+            var intValue= int.Parse(Console.ReadLine());
+
+            if (intValue > 100)
+            {
+                Console.WriteLine("Invalid marks");
+            }else if(intValue < 0)
+            {
+                Console.WriteLine("Invalid marks");
+            }
+            else
+            {
+                Console.WriteLine("valid marks");
+            }
         }
 
         public void muultiLineConditionExpression()

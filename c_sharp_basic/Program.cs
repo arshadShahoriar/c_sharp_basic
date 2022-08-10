@@ -8,6 +8,9 @@ namespace c_sharp_basic
         {
             var obj = new assignment();
 
+
+           
+
             //hello world
            obj.helloWorld();
 
@@ -20,9 +23,13 @@ namespace c_sharp_basic
             // type convertion
             obj.typeConvertion();
 
-            obj.generalOperation(); 
-           
-           
+            //general artithmatic operation
+            obj.generalOperation();
+
+            // conditional operation if-elseif-else
+            obj.conditionExpression();
+
+
         }
     }
 }
