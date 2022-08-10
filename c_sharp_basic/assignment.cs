@@ -266,9 +266,42 @@ namespace c_sharp_basic
 
         }
 
-        public void generalOperation() { }
+        public void generalOperation() {
+            // with the three subject marks , we have done different artithmatic expression
+            var bangla = 90.0;
+            var english = 80.0;
+            var physics = 85.0;
 
-        public void conditionExpression() { }
+            var maximumMarks = 3 * 100;
+            var totalmarks= bangla+english+physics;
+
+            Console.WriteLine("total marks obtain "+totalmarks);
+
+            Console.WriteLine($"lacks of marks {maximumMarks-totalmarks}");
+            Console.WriteLine($"Average marks {totalmarks / 3.0}");
+
+
+            if ((totalmarks % 2) == 0)
+            {
+                Console.WriteLine("Obtain marks is even");
+            }
+            else
+            {
+                Console.WriteLine("Obtain marks is odd");
+            }
+
+            var chemistry = 80 | 90;
+            var biology = 50 & 60;
+
+
+            Console.WriteLine($" chemistry + biology = {chemistry+biology}");
+            Console.WriteLine($"5^2 ={5^2} ");
+        
+        
+        }
+
+        public void conditionExpression() { 
+        }
 
         public void muultiLineConditionExpression()
         {

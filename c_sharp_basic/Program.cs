@@ -14,11 +14,13 @@ namespace c_sharp_basic
             //primitive data type printing
 
            obj.printPrimitiveType();
+
             //checked exception
             obj.checkedException();
             // type convertion
             obj.typeConvertion();
 
+            obj.generalOperation(); 
            
            
         }
