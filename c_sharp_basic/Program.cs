@@ -7,8 +7,9 @@ namespace c_sharp_basic
         static void Main(string[] args)
         {
             var obj = new assignment();
-               
-          
+
+         
+
 
             //hello world
            obj.helloWorld();
@@ -37,6 +38,10 @@ namespace c_sharp_basic
 
             //different types of comment
             obj.differentTypesOfComment();
+
+
+            //For, While, Do while, Foreach, continue & break (print 1-100, skip at 95, break at 99)
+            obj.skip95AndBreaksAt99();
 
 
         }

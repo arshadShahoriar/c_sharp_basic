@@ -389,7 +389,77 @@ namespace c_sharp_basic
 
         public void skip95AndBreaksAt99()
         {
+            //for
+            Console.WriteLine("for");
+            for (var i = 1; i <= 100; i++)
+            {
+                if (i == 95)
+                {
+                    continue;
+                }
 
+                Console.WriteLine(i);
+
+                if (i == 99)
+                    break;
+                
+            }
+            //while
+            Console.WriteLine("while");
+            var j = 1;
+            while (j<=100)
+            {
+                if (j == 95)
+                {
+                    j++;
+                    continue;
+                }
+
+                Console.WriteLine(j);
+
+                if (j == 99)
+                    break;
+
+                j++;
+
+            }
+            //do while
+            Console.WriteLine("do while");
+            j = 1;
+            do
+            {
+                if (j == 95)
+                {
+                    j++;
+                    continue;
+                }
+
+                Console.WriteLine(j);
+
+                if (j == 99)
+                    break;
+
+                j++;
+            }
+            while (j <= 100);
+
+
+            //foreach 
+            Console.WriteLine("foreach");
+            foreach (var i in Enumerable.Range(1, 100))
+            {
+               if(i==95)
+                {
+
+                }else if (i==99)
+                {
+                    Console.WriteLine(i);
+                    break;
+                }
+               else
+                Console.WriteLine(i);
+            }
+            
         }
 
         public void switchCases() {  }
