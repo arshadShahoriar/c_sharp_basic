@@ -320,6 +320,26 @@ namespace c_sharp_basic
 
         public void muultiLineConditionExpression()
         {
+            Console.WriteLine("input a number range between 1-100");
+            var intValue = int.Parse(Console.ReadLine());
+
+            if ((intValue <= 100) && (intValue >= 0))
+            {
+                Console.WriteLine("valid marks");
+
+                if ((intValue >= 90) || (intValue >= 89))
+                {
+                    Console.WriteLine("A+");
+                }
+                else
+                {
+                    Console.WriteLine("other grade");
+                }
+            }
+            else
+                Console.WriteLine("Invalid marks");
+            
+           
 
         }
 
