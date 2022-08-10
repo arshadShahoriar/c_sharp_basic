@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace c_sharp_basic 
+﻿namespace c_sharp_basic
 {
     internal class Program
     {
@@ -8,15 +6,14 @@ namespace c_sharp_basic
         {
             var obj = new assignment();
 
-         
+
 
 
             //hello world
-           obj.helloWorld();
+            obj.helloWorld();
 
             //primitive data type printing
-
-           obj.printPrimitiveType();
+            obj.printPrimitiveType();
 
             //checked exception
             obj.checkedException();
