@@ -8,8 +8,7 @@ namespace c_sharp_basic
         {
             var obj = new assignment();
 
-
-           
+          
 
             //hello world
            obj.helloWorld();
@@ -31,6 +30,10 @@ namespace c_sharp_basic
 
             // complex  conditional operation if-elseif-else with && and ||
             obj.muultiLineConditionExpression();
+
+
+            // ternary logical operators
+            obj.ternaryLogicOperation();
 
 
         }

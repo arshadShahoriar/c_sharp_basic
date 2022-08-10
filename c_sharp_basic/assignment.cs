@@ -343,7 +343,18 @@ namespace c_sharp_basic
 
         }
 
-        public void ternaryLogicOperation() { }
+        public void ternaryLogicOperation() {
+
+            int a, b;
+            a= int.Parse(Console.ReadLine()) ;
+
+            //a<100 will results 0
+
+            b = (a >= 100 ) ? 100 : 0;
+            Console.WriteLine("Value of b is {0}", b);
+
+
+        }
 
 
         public void differentTypesOfComment()
